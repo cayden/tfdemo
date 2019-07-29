@@ -10,7 +10,7 @@ def imageprepare():
     This function returns the pixel values.
     The imput is a png file location.
     """
-    file_name='result/177.jpg'#导入自己的图片地址
+    file_name='result/3.bmp'#导入自己的图片地址
     #in terminal 'mogrify -format png *.jpg' convert jpg to png
     im = Image.open(file_name)
     # plt.imshow(im)
